@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.AddUsers">
+   <children>
+      <Label layoutX="251.0" layoutY="21.0" text="Add Users" />
+      <Label layoutX="52.0" layoutY="257.0" text="First name" />
+      <Label layoutX="52.0" layoutY="289.0" text="Last name" />
+      <Label layoutX="52.0" layoutY="318.0" text="Username" />
+      <Label layoutX="53.0" layoutY="348.0" text="Password" />
+      <TextField layoutX="172.0" layoutY="253.0" />
+      <TextField layoutX="172.0" layoutY="285.0" />
+      <TextField layoutX="172.0" layoutY="314.0" />
+      <TextField layoutX="172.0" layoutY="344.0" />
+      <Button layoutX="412.0" layoutY="302.0" mnemonicParsing="false" text="Add" />
+      <TableView layoutX="151.0" layoutY="49.0" prefHeight="174.0" prefWidth="302.0">
+        <columns>
+          <TableColumn prefWidth="101.0" text="First Name" />
+          <TableColumn prefWidth="106.0" text="Last Name" />
+            <TableColumn prefWidth="94.0" text="Username" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

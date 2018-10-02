@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Cashier">
+   <children>
+      <TableView layoutX="14.0" layoutY="14.0" prefHeight="184.0" prefWidth="379.0">
+        <columns>
+          <TableColumn prefWidth="75.0" text="Item Name " />
+          <TableColumn prefWidth="113.0" text="Quantity Available" />
+            <TableColumn prefWidth="72.0" text="Item Price" />
+            <TableColumn prefWidth="119.0" text="Item Bargain Price" />
+        </columns>
+      </TableView>
+      <TableView layoutX="14.0" layoutY="211.0" prefHeight="175.0" prefWidth="379.0">
+        <columns>
+          <TableColumn prefWidth="75.0" text="Item Name" />
+          <TableColumn prefWidth="102.0" text="Availability(cm)" />
+            <TableColumn prefWidth="73.0" text="Item Price" />
+            <TableColumn prefWidth="128.0" text="Item Bargain Price" />
+        </columns>
+      </TableView>
+      <Button layoutX="445.0" layoutY="61.0" mnemonicParsing="false" text="Write direct bill" />
+      <Button layoutX="428.0" layoutY="106.0" mnemonicParsing="false" text="Write a measurement bill" />
+   </children>
+</AnchorPane>

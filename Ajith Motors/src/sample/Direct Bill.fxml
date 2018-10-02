@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.DirectBill">
+   <children>
+      <Button layoutX="198.0" layoutY="277.0" mnemonicParsing="false" text="Finish" />
+      <TextField layoutX="173.0" layoutY="174.0" />
+      <TextField layoutX="173.0" layoutY="138.0" />
+      <Label layoutX="224.0" layoutY="113.0" text="Rs /=" />
+      <Label layoutX="186.0" layoutY="113.0" text="0" />
+      <ComboBox layoutX="172.0" layoutY="77.0" prefWidth="150.0" />
+      <Label layoutX="62.0" layoutY="113.0" text="Bargain Price" />
+      <Label layoutX="64.0" layoutY="178.0" text="Price Sold " />
+      <Label layoutX="62.0" layoutY="142.0" text="Quantity" />
+      <Label layoutX="66.0" layoutY="81.0" text="Item Name" />
+      <Label layoutX="247.0" layoutY="33.0" text="Add a direct bill" />
+   </children>
+</AnchorPane>

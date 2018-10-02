@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.MeasurementBill">
+   <children>
+      <Label layoutX="237.0" layoutY="23.0" text="Add a measurement bill" />
+      <Label layoutX="56.0" layoutY="71.0" text="Item Name" />
+      <Label layoutX="52.0" layoutY="132.0" text="Quantity(cm)" />
+      <Label layoutX="54.0" layoutY="168.0" text="Price Sold " />
+      <Label layoutX="52.0" layoutY="103.0" text="Bargain Price" />
+      <ComboBox layoutX="162.0" layoutY="67.0" prefWidth="150.0" />
+      <Label layoutX="176.0" layoutY="103.0" text="0" />
+      <Label layoutX="214.0" layoutY="103.0" text="Rs /=" />
+      <TextField layoutX="163.0" layoutY="128.0" />
+      <TextField layoutX="163.0" layoutY="164.0" />
+      <Button layoutX="188.0" layoutY="267.0" mnemonicParsing="false" text="Finish" />
+   </children>
+</AnchorPane>
